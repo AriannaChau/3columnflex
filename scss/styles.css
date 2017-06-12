@@ -1,0 +1,65 @@
+input,
+label,
+select,
+button,
+textarea {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+  background: none;
+  line-height: 1;
+  /* Browsers have different default form fonts */
+  font-size: 13px;
+  font-family: Arial; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 300px); }
+
+header, footer {
+  padding: 10px;
+  background: grey;
+  color: white; }
+
+main {
+  display: flex;
+  flex-grow: 1;
+  background: tomato; }
+
+.column1 {
+  flex-grow: 1;
+  background-color: lightyellow; }
+
+.column2 {
+  width: 160px;
+  background-color: lightblue;
+  order: -1; }
+
+.column3 {
+  width: 160px;
+  background-color: pink; }
+
+.media-object {
+  display: flex;
+  max-width: 300px; }
+  .media-object img {
+    margin-right: 10px; }
+  .media-object .content {
+    flex-grow: 1; }
+
+.input-group {
+  display: flex;
+  max-width: 600px; }
+
+input {
+  padding: 10px; }
+  input[type="text"] {
+    flex: 1; }
+  input[type="submit"] {
+    height: 100%;
+    width: auto; }
+
+/*# sourceMappingURL=styles.css.map */
